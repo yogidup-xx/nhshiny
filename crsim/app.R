@@ -54,11 +54,11 @@ server <- function(input, output) {
     column(
       6,
       strong("Current conversion"),br(),
-      current_conv,
+      code(current_conv),
       hr(),
       
       strong("Target conversion"),br(),
-      target_conv,
+      code(target_conv),
       hr()
       
     )
